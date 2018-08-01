@@ -13,7 +13,11 @@ public class CourseSession {
         return department;
     }
 
-    public String getNumner() {
+    public String getNumber() {
         return number;
+    }
+
+    public int getNumberOfStudents() {
+        return 0;
     }
 }
