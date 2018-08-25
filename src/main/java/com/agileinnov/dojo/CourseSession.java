@@ -3,6 +3,7 @@ package com.agileinnov.dojo;
 import java.util.*;
 
 public class CourseSession {
+    static final String NEWLINE = System.getProperty("line.separator");
     private String department;
     private String number;
     private ArrayList<Student> students = new ArrayList<Student>();
@@ -52,4 +53,5 @@ public class CourseSession {
     public Date getStartDate() {
         return startDate;
     }
+
 }
