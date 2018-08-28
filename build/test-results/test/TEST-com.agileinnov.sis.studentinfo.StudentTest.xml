@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.agileinnov.sis.studentinfo.StudentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-08-28T22:59:44" hostname="BillAir.local" time="0.061">
+  <properties/>
+  <testcase name="canCreate" classname="com.agileinnov.sis.studentinfo.StudentTest" time="0.003"/>
+  <testcase name="canCreate" classname="com.agileinnov.sis.studentinfo.StudentTest" time="0.0"/>
+  <testcase name="canCreate" classname="com.agileinnov.sis.studentinfo.StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
