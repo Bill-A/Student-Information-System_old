@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class RosterReporterTest {
     @Test
     public void canReportRoster() {
-        CourseSession session = new CourseSession("ENGL", "101", new DateUtil().createDate(2003,1,6));
+        CourseSession session = new CourseSession("ENGL", "101", DateUtil.createDate(2003,1,6));
 
         session.enroll(new Student("Simone Allen"));
         session.enroll(new Student("Semira Allen"));

@@ -1,6 +1,5 @@
 package com.agileinnov.sis.studentinfo;
 
-import com.agileinnov.sis.studentinfo.DateUtil;
 import org.junit.Test;
 
 import java.util.Calendar;
@@ -12,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 public class DateUtilTest {
     @Test
     public void canCreateDate() {
-        Date date = new DateUtil().createDate(2000, 1, 1);
+        Date date = DateUtil.createDate(2000, 1, 1);
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(date);
         assertEquals(2000, calendar.get(Calendar.YEAR));
